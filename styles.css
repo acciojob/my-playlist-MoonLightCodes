@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+/* Body Background Color */
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Video Player Container */
+.player_one {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Audio Player Container */
+.player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* General Styling for Links */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
